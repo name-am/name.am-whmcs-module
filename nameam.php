@@ -298,6 +298,45 @@ function nameam_RegisterDomain($params)
             "plan" => [
                 "_id" => $registrationPeriod."_year_register" 
             ], 
+            "registrantContacts" => [
+                "organization" => $companyName, 
+                "firstName" => $firstName, 
+                "lastName" => $lastName, 
+                "fullName" => $firstName." ".$lastName, 
+                "address1" => $address1, 
+                "country" => $countryCode, 
+                "email" => $email, 
+                "phone" => str_replace('.', '', $phoneNumberFormatted), 
+                "state" => $adminState, 
+                "city" => $adminCity, 
+                "zip" => $adminPostcode 
+            ], 
+            "administrativeContacts" => [
+                "organization" => $companyName, 
+                "firstName" => $firstName, 
+                "lastName" => $lastName, 
+                "fullName" => $firstName." ".$lastName, 
+                "address1" => $address1, 
+                "country" => $countryCode, 
+                "email" => $email, 
+                "phone" => str_replace('.', '', $phoneNumberFormatted), 
+                "state" => $adminState, 
+                "city" => $adminCity, 
+                "zip" => $adminPostcode 
+            ], 
+            "technicalContacts" => [
+                "organization" => $companyName, 
+                "firstName" => $firstName, 
+                "lastName" => $lastName, 
+                "fullName" => $firstName." ".$lastName, 
+                "address1" => $address1, 
+                "country" => $countryCode, 
+                "email" => $email, 
+                "phone" => str_replace('.', '', $phoneNumberFormatted), 
+                "state" => $adminState, 
+                "city" => $adminCity, 
+                "zip" => $adminPostcode 
+            ], 
             "billingContacts" => [
                 "organization" => $companyName, 
                 "firstName" => $firstName, 
