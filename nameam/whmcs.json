@@ -5,24 +5,24 @@
   "category": "domains",
   "description": {
     "name": "Name.am",
-    "tagline": "Industry-leading domain registrar with over 18M domain names.",
-    "long": "Name.am powers the world\u2019s largest cloud platform. Name.am is the registrar of choice for more domain names than any other ICANN-acreddited registrar.\n\nNow with the Name.am module for WHMCS, you can resell domains using the Name.am domain reseller platform. To get started, download the module from the WHMCS Marketplace using the link to the right.\n\nSignup for a Name.am account @ [https:\/\/reseller.name.am\/whmcs](https:\/\/reseller.name.am\/whmcs)\n\n## Reasons to Choose Name.am\n* Trusted partner and champion of our customers.\n* Large, high growth business with attractive unit economics.\n* Industry-leading products built on a single cloud platform & distinctive customer care.\n* Proven growth strategy with team purpose built to execute.\n* Market Leading Wholesale Domain Pricing.\n* Best Price for .AM ccTLD"
+    "tagline": "Official AMNIC Accredited Registrar",
+    "long": "Name.am is an Official AMNIC Accredited Registrar providing high quality cloud services."
   },
   "marketplace": {
-    "url": "https:\/\/marketplace.whmcs.com\/product\/4864"
+    "url": "https:\/\/marketplace.whmcs.com\/product\/5620-nameam-official-am-registration-module"
   },
   "logo": {
     "filename": "logo.png"
   },
   "support": {
     "homepage": "https:\/\/www.name.am\/",
-    "learn_more": "https:\/\/www.whmcs.com\/nameam",
-    "docs_url": "https:\/\/docs.whmcs.com\/Nameam"
+    "learn_more": "https:\/\/github.com\/name-am\/name.am-whmcs-module\/releases",
+    "docs_url": "https:\/\/docs.name.am"
   },
   "authors": [
     {
-      "name": "WHMCS",
-      "homepage": "https:\/\/www.whmcs.com\/"
+      "name": "NAME.AM, Inc.",
+      "homepage": "https:\/\/www.name.am\/"
     }
   ]
 }
